@@ -12,7 +12,7 @@ app.get('/twitter',(req,res) => {
     res.send("hitesh-world")
 })
 
-app.listen('port',() => {
+app.listen(port,() => {
     console.log(`Example app Listening on port ${port}`);
     
 })
