@@ -50,7 +50,6 @@ app.get('/twitter',(req,res) => {
     res.send("hitesh-world")
 })
 
-<<<<<<< HEAD
 app.get('/login',(req,res) => {
     res.send("<h1>Please login on Chai aur Code</h1>");
 })
@@ -60,9 +59,6 @@ app.get('/github',(req,res) => {
 })
 
 app.listen(process.env.PORT,() => {
-=======
-app.listen(port,() => {
->>>>>>> 5b8b40b8385d9e7ae2da75aa3905307e1d5d0638
     console.log(`Example app Listening on port ${port}`);
     
 })
